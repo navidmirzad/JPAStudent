@@ -2,7 +2,6 @@ package com.example.jpastudent.controller;
 
 import com.example.jpastudent.model.Student;
 import com.example.jpastudent.repositories.StudentRepository;
-import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
