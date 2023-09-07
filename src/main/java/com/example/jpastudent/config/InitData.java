@@ -28,6 +28,5 @@ public class InitData implements CommandLineRunner {
     s2.setBornDate(LocalDate.of(2002, 04, 05));
     s2.setBornTime(LocalTime.of(7,8,9));
     studentRepository.save(s2);
-
     }
 }
