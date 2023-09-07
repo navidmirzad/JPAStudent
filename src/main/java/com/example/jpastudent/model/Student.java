@@ -20,6 +20,8 @@ public class Student {
     private LocalTime bornTime;
 
 
+
+
     public int getId() {
         return id;
     }

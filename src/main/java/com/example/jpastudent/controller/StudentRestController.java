@@ -18,6 +18,7 @@ public class StudentRestController {
     @Autowired
     StudentRepository studentRepository;
 
+
     @GetMapping("/students")
     public List<Student> students() {
         var obj = studentRepository.findAll();
