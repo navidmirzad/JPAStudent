@@ -1,12 +1,11 @@
 spring.h2.console.enabled=true
 
-spring.datasource.url=jdbc:mysql://127.0.0.1:3307/root
-spring.datasource.username=jpastudent
-spring.datasource.password=Navid123
+spring.datasource.url=jdbc:mysql://127.0.0.1:3307/studentDatabase
+spring.datasource.username=root
+spring.datasource.password=Root1234
 
 spring.jpa.hibernate.ddl-auto=create-drop
 spring.jpa.show-sql=true
-
 
 
 
