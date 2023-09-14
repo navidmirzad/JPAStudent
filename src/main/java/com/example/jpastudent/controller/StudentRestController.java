@@ -14,9 +14,15 @@ import java.util.Optional;
 @RestController
 public class StudentRestController {
 
+
     @Autowired
     StudentRepository studentRepository;
 
+
+    @GetMapping("/")
+    public String Root() {
+        return "You're inside the root of JPAStudent";
+    }
 
     @GetMapping("/students")
     public List<Student> students() {
